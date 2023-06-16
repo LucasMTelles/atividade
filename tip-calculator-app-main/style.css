@@ -1,0 +1,138 @@
+:root{
+
+/*Colors
+
+### Primary*/
+
+--Strong-cyan: hsl(172, 67%, 45%);
+
+/*### Neutral*/
+
+--Very-dark-cyan: hsl(183, 100%, 15%);
+--Dark-grayish-cyan: hsl(186, 14%, 43%);
+--Grayish-cyan: hsl(184, 14%, 56%);
+--Light-grayish-cyan: hsl(185, 41%, 84%);
+--Very-light-grayish-cyan: hsl(189, 41%, 97%);
+--White: hsl(0, 0%, 100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--Light-grayish-cyan);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 19rem;
+    font-family: 'Space Mono', monospace;
+}
+
+main{
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    font-family: 'Space Mono', monospace;
+}
+
+.valor{
+    color: var(--Grayish-cyan);
+    background-color: var(--Very-light-grayish-cyan);
+    border: none;
+    text-align: end;
+    width: 340px;
+    padding: 0.5rem;
+    font-size: 16px;
+}
+
+.porcentagem{
+    background-color: var(--Very-dark-cyan);
+    border: none;
+    border-radius: 6px;
+    color: var(--White);
+    padding: 0.5rem;
+    font-size: 24px;
+    width: 106px;
+    gap: 0.5rem;
+}
+
+.segunda{
+    padding-top: 0.6rem;
+}
+
+.custom{
+    background-color: var(--Very-light-grayish-cyan);
+    border: none;
+    border-radius: 6px;
+    color: var(--Very-dark-cyan);
+    padding: 0.5rem;
+    font-size: 24px;
+    width: 106px;
+    gap: 0.5rem;
+}
+
+.titulo{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.parteum{
+    padding-right: 2rem;
+}
+
+.partedois{
+    background-color: var(--Very-dark-cyan);
+    border-radius: 12px;
+}
+
+.tip{
+    color: var(--White);
+    padding: 2rem;
+    position: relative;
+    bottom: 2rem;
+}
+
+
+.person{
+    color: var(--Grayish-cyan);
+    position: relative;
+    padding-left: 2rem;
+    bottom: 4rem;
+}
+
+
+.reset{
+    margin: 2rem;
+    border: none;
+    padding: 1rem;
+    background-color: var(--Dark-grayish-cyan);
+    color: var(--Very-dark-cyan);
+    border-radius: 6px;
+    width: 400px;
+    font-size: 24px;
+}
+
+.numero{
+    color: var(--Strong-cyan);
+    font-size: 40px;
+    position: relative;
+    left: 260px;
+    top: 40px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--Very-dark-cyan);
+    position: relative;
+    left: 520px;
+    bottom: 420px;
+}
